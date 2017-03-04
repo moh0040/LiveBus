@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { Panel  } from 'react-bootstrap';
-
 import GoogleMap from '../GoogleMap/GoogleMap.js';
 import { getVehicles } from '../api/bus.js';
 
@@ -43,7 +42,7 @@ class MapBus extends Component {
     return (
   <Panel >
 
-      <div style={{ height: '80vh' }}>
+      <div style={{ height: '60vh' }}>
         <GoogleMap
           containerElement={
             <div style={{ height: '100%' }} />
