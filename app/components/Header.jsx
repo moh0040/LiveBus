@@ -8,10 +8,8 @@ class Header extends Component {
   render(){
     return (
         <div className="header" >
-            <Well >Live Bus Location<p className="headerP">[ React.JS, Webpack ES6, Babel, React-bootstrap, GoogleMapApi, RestbusApi ]</p></Well>
-            
+            <Well ><b>Live Bus Location</b><p className="headerP">[ React.JS, Webpack ES6, Babel, React-bootstrap, GoogleMapApi, RestbusApi ]</p></Well>
         </div>
-
     );
   }
 }
