@@ -2,16 +2,16 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var Header = require('Header');
 var Footer = require('Footer');
-var Map = require('Map');
+var MapBus = require('MapBus');
 import { Grid, Row, Col  } from 'react-bootstrap';
 
 
 ReactDOM.render(
 		<Grid>
           <Row className="show-grid">
-            <Col xs={18} md={12}><code
+            <Col xs={18} md={12}><code>
                 <Header/>
-                <Map/> 
+                <MapBus/> 
                 <Footer/>
             </code></Col>
           </Row>

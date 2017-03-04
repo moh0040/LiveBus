@@ -7,7 +7,7 @@ class Footer1 extends Component {
   render(){
     return (
         <div className="footer">
-            <Well>React Project ©2017 Created by Saeed Sharifi</Well>
+            <Well><p>Design And Developed by <a href="http://www.geomap.ml/"> Saeed Sharifi</a>. Copyright &copy; 2017. All Rights Reserved.</p></Well>
         </div>
 
     );
