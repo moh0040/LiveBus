@@ -35,7 +35,7 @@ class MapBus extends Component {
     });
 
     plotVehicles();
-    window.setInterval(plotVehicles, 2000);
+    window.setInterval(plotVehicles, 500);
   }
 
   render() {
